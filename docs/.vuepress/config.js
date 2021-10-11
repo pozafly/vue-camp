@@ -189,6 +189,7 @@ module.exports = {
               '/design/pattern3',
               '/design/pattern4',
               '/design/pattern5',
+              '/design/components-design',
             ],
           },
           {

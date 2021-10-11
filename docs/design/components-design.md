@@ -1,3 +1,7 @@
+---
+title: Components Design
+---
+
 # 컴포넌트 설계
 
 컴포넌트 설계란 컴포넌트를 구성하는 뼈대를 정의해 구현의 기반을 만드는 것을 의미합니다. 컴포넌트 설계에 대해 자세하게 알아보기 전에 컴포넌트가 만들어진 배경과 장점에 대해서 가볍게 알아봅시다.
@@ -37,7 +41,7 @@
 
 코드 재사용성은 한번 만들어진 컴포넌트를 여러 곳에서 사용할 수 있음을 말합니다. 그리고 확장성은 코드의 상당 부분을 변경하지 않고도 UI 또는 기능을 추가할 수 있음을 말합니다. 아래와 같이 서로 다른 페이지의 구성요소를 만들었다고 가정합시다.
 
-![설계z.003](/Users/hwangsuntae/Desktop/설계/설계z.003.png)
+![design1](./../.vuepress/public/images/design_01.png)
 
 AppHeader 컴포넌트는 MainPage에서도 사용될 수 있고, LoginPage에서도 사용될 수 있습니다.
 
@@ -71,7 +75,7 @@ export default {
 
 AppHeader 컴포넌트는 MainPage와 LoginPage 두 파일에서 동일한 내용으로 재사용 되었습니다. 여기에서 LoginPage의 AppHeader에 아래 사진과 같이 Button이 추가되어야 한다고 가정해보겠습니다.
 
-![설계z.002](/Users/hwangsuntae/Desktop/설계/설계z.002.png)
+![design2](./../.vuepress/public/images/design_02.png)
 
 이를 구현하기 위해서 `v-if` 디렉티브를 사용해, Button을 그룹화 하여 조건에 따라 다르게 나타낼 수 있습니다.
 
