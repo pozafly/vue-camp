@@ -132,6 +132,7 @@ module.exports = {
           {
             title: 'Maximizing Reusability',
             collapsable: false,
+<<<<<<< HEAD
             children: [
               '/reuse/slots',
               '/reuse/scoped-slot',
@@ -140,6 +141,9 @@ module.exports = {
               '/reuse/plugins',
               '/reuse/mixins-vs-hoc',
             ],
+=======
+            children: ['/reuse/slots', '/reuse/scoped-slot', 'reuse/v-slot', '/reuse/mixins', '/reuse/plugins', '/reuse/mixins-vs-hoc'],
+>>>>>>> 2f42fd093d89f5808c88194c0ded894317dab413
           },
           {
             title: 'Vue.js in Legacy Projects',
